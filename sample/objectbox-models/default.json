@@ -1,0 +1,75 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:8657171982795311411",
+      "lastPropertyId": "6:421696395829688030",
+      "name": "Face",
+      "properties": [
+        {
+          "id": "1:2956853930418668462",
+          "name": "imageID"
+        },
+        {
+          "id": "2:6433474461452307559",
+          "name": "RGB_data"
+        },
+        {
+          "id": "3:5169556704906528715",
+          "name": "infrared_data"
+        },
+        {
+          "id": "4:8617576995517556040",
+          "name": "feature"
+        },
+        {
+          "id": "5:8198151620629745581",
+          "name": "name"
+        },
+        {
+          "id": "6:421696395829688030",
+          "indexId": "1:1870446353934045327",
+          "name": "notesId"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:4751673372902251527",
+      "lastPropertyId": "4:8659621706570064054",
+      "name": "Note",
+      "properties": [
+        {
+          "id": "1:7568663163301900574",
+          "name": "PersonID"
+        },
+        {
+          "id": "2:8314950997708450961",
+          "name": "name"
+        },
+        {
+          "id": "3:3391165797550335528",
+          "name": "date"
+        },
+        {
+          "id": "4:8659621706570064054",
+          "name": "visitor"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "2:4751673372902251527",
+  "lastIndexId": "1:1870446353934045327",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
